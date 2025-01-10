@@ -1,0 +1,354 @@
+
+.sec_home {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 20px;
+
+}
+/* Thanh border */
+.sec_home .markI {
+  width: 100vw;
+  height: 20px;
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(203, 203, 203);
+}
+
+.sec_home .markII {
+  width: 100vw;
+  height: 20px;
+  position: fixed;
+  left: 0;
+  z-index: 9999;
+  bottom: 0;
+  background-color: rgb(203, 203, 203);
+}
+
+.sec_home .markIII {
+  height: 100vh;
+  width: 20px;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: rgb(203, 203, 203);
+}
+
+.sec_home .markIIII {
+  height: 100vh;
+  width: 20px;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  background-color: rgb(203, 203, 203);
+}
+
+
+/*===================navbar=====================*/
+.sec_home .navbar a {
+  text-decoration: none;
+}
+
+.sec_home .navbar .logo a {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+}
+
+/* Navbar */
+.sec_home .navbarI {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 150px;
+  padding-top: 20px;
+  z-index: 9999;
+  padding-bottom: 23px;
+  background-color: rgba(0,0,0,0);
+  
+ margin-bottom: 0px;
+}
+.sec_home .navbarII {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 20px 150px;
+  padding-top: 30px;
+  z-index: 999;
+  padding-bottom: 23px;
+  background-color: rgba(255, 255, 255, 1);
+  
+ margin-bottom: 0px;
+}
+.sec_home .navbar_mark{
+  height: 94.2px;
+  width: 100%;
+  z-index: -1;
+}
+
+.sec_home .navbar .menu button {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  margin: 0 15px;
+  font-size: 0.85rem;
+}
+
+.sec_home .navbar .menu button:hover {
+  color: rgb(138, 138, 138);
+}
+
+.sec_home .navbar .info {
+  display: flex;
+  justify-content: center;
+}
+
+.sec_home .navbar .info .icon {
+  font-size: 1rem;
+  margin: 0 6px;
+}
+
+
+/*=============prafixxx ============== */
+.sec_home .image-background {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/banner-image-1.jpg");
+  background-size: 105%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0; /* Đảm bảo không có khoảng cách trên */
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  justify-content: center;
+}
+.sec_home .image-background h1{
+    font-size: 4rem;
+}
+
+.sec_home .image-background span{
+    height: 10px;
+    width: 30px;
+    background-color: rgb(198, 198, 77);
+}
+.sec_home .image-background .span{
+    margin-bottom: 190px;
+
+}
+
+/*====================sec home I ======================*/
+
+.sec_home .sec_home_I{
+    height: 60vh;
+    padding: 30px;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.sec_home .sec_home_I .II{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+}
+.sec_home .sec_home_I .II .icon{
+ height: 45px;
+  width: 45px;
+  
+}
+.sec_home .sec_home_I .II div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.sec_home .sec_home_I .II div h3{
+ font-size: 1.6rem;
+ font-weight: 700;
+  
+}
+
+.sec_home .sec_home_I .I .haha{
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: rgb(182, 182, 182);
+}
+.sec_home .sec_home_I .I .hehe{
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(182, 182, 182);
+}
+
+.sec_home .sec_home_I .I h1{
+  font-size: 2rem;
+}
+
+.sec_home .sec_home_I .I{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec_home .sec_home_I .I span{
+  height: 10px;
+    width: 30px;
+    background-color: rgb(198, 198, 77);
+}
+/*====================sec home II ======================*/
+
+.sec_home .sec_home_II{
+  height: 70vh;
+  width: 100%;
+  background-color: white;
+
+}
+
+.sec_home .sec_home_II .image_gallery{
+height: max-content;
+width: max-content;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+row-gap: 10px;
+column-gap: 10px;
+}
+.hidden{
+  opacity: 0;
+}
+.hover:hover{
+scale: 1.05;
+transition: 0.3s;
+}
+.fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+
+/*===================sechome III =================== */
+
+.sec_home .sec_home_III{
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+  padding: 20px;
+  padding-top: 200px;
+  background-color: white;
+}
+
+.sec_home .sec_home_III .I{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 70px;
+  padding-right: 70px;
+}
+.sec_home .sec_home_III .I h3{
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+.sec_home .sec_home_III .I p{
+  font-weight: 600;
+}
+.sec_home .sec_home_III .II p{
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: rgb(189, 189, 189);
+}
+.sec_home .sec_home_III .II h1{
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+.sec_home .sec_home_III .II span{
+ height: 5px;
+    width: 40px;
+    display: block;
+    background-color: rgb(198, 198, 77);
+}
+.sec_home .sec_home_III .II h2{
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(150, 150, 150);
+
+
+}
+.sec_home .sec_home_III .II h3{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.sec_home .sec_home_III img{
+  height: 600px;
+}
+.sec_home .sec_home_III .III{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+  /*===================== sec_home_IV ======== */
+.sec_home .sec_home_IV{
+    background-color: white;
+padding-top: 80px;
+}
+.sec_home .sec_home_IV .III{
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.sec_home .sec_home_IV .I p{
+  display: flex;justify-content: center;
+  font-size: 1.3rem;
+  color: rgb(189, 189, 189);
+  font-weight: 700;
+}
+.sec_home .sec_home_IV .II {
+  display: flex;justify-content: center;
+  
+}
+.sec_home .sec_home_IV .II .af{
+ font-size: 2.6rem;
+ font-weight: 700;
+ padding-top: 20px;
+ padding-bottom: 20px;
+  
+}
+
+/*=================sec_home_V===================*/
+.sec_home .sec_home_V{
+  display: flex;
+  padding-top: 70px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.sec_home .sec_home_V .zzz{
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.sec_home .sec_home_V .II{
+  display: flex;
+  width: 65%;
+  justify-content: center;
+}
+
+/*=====================end===================*/
+.sec_home .end{
+  height: 30px;
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 35px;
+}
